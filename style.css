@@ -9,3 +9,56 @@ body{
     background-color: #383838;
     font-family: 'Inter', sans-serif;
 }
+
+.nav-bar{
+    background-color: #575757;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 35px 400px;   
+    border-radius: 0px 0px 10px 10px; 
+}
+
+.nav-bar button{
+    height: 64px;
+    width: 114px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+ 
+    transition: 0.25s;
+}
+
+.nav-bar .time{
+    background-color: #39c0c5;
+}
+
+.time:hover{
+    background-color: #328f92;
+    color: rgb(217, 217, 217);
+    transform: scale(1.07);
+}
+
+.start, .remove{
+    background-color: #396AC5;
+}
+
+.start:hover, .remove:hover{
+    background-color: #335595;
+    color: rgb(217, 217, 217);
+    transform: scale(1.07);
+}
+
+.content{
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 192vh;
+    height: 40vh;
+    font-size: 150px;
+}
