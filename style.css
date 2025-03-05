@@ -14,10 +14,11 @@ body{
     background-color: #575757;
     height: 70px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 35px 400px;   
     border-radius: 0px 0px 10px 10px; 
+    border: 1px solid #7a7a7a;
 }
 
 .nav-bar button{
@@ -52,13 +53,17 @@ body{
 }
 
 .content{
-    border: 1px solid white;
+    border: 1px solid #7a7a7a;
+    background-color: #575757;
+    border-radius: 10px;
     color: white;
     display: flex;
     align-items: center;
     position: relative;
+    justify-self: center;
     justify-content: center;
-    width: 192vh;
+    margin-top: 100px;
+    width: 50vh;
     height: 40vh;
     font-size: 150px;
 }
